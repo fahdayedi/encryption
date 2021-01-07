@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fahd ayedi</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/fahdayedi/codes/main/img-title.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://raw.githubusercontent.com/fahdayedi/encryption/main/luca-bravo-XJXWbfSo2f0-unsplash.jpg" rel="stylesheet">
+    <meta property="og:title" content="fahd ayedi -  فهد العيادي" />
+    <meta property="og:description" content="Arab programmer Fahd ayedi - المبرمج العربي فهد العيادي" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="1200" />  
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:type" content="website" /> 
+
+    <style>
+        body{
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(255, 255, 255, 0.678));
+        }
+        #img-fahd {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+        }
+
+        #logo-facebook {
+            margin: 0px 20px
+        }
+
+        #app {
+            width: 98%;
+            max-width: 98%;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        #app p {
+            width: 100%;
+            padding: 14px;
+            background: rgba(2, 5, 51, 0.548);
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 22px;
+            border-radius: 14px;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        #app textarea {
+            width: 100%;
+            border: 2px solid rgba(92, 79, 79, 0.418);
+            outline: none;
+            border-radius: 14px;
+            min-height: 140px;
+        }
+
+        #app select {
+            width: 100%;
+            padding: 14px;
+            border-radius: 14px;
+            margin-bottom: 14px;
+            outline: none;
+            font-family: 'Roboto Mono', monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a style="line-height: 50px; font-family: 'Yeon Sung', cursive; " class="navbar-brand" href="https://www.facebook.com/Fahd.ayedi.101/"
+                target="blank">
+                <img src="fahd.jpg" alt="" width="50" height="50" style="border-radius: 50%;"
+                    class="d-inline-block align-top">
+                <span id="title-text">FAHD AYEDI</span>
+            </a>
+            <div>
+                <button id="arabic" type="button" class="btn btn-outline-success">العربية</button>
+                <button id="english" type="button" class="btn btn-outline-danger">English</button>
+            </div>
+        </div>
+    </nav>
+    <main id="app">
+        <div id="direction">
+        <select id="select">
+            <option id="b1" value="encode">Text encryption</option>
+            <option id="b2" value="decode">Decrypt text</option>
+        </select>
+
+        <p id="text">Text</p>
+
+        <textarea id="text-textarea"></textarea>
+
+        <p id="text_Result">Result</p>
+
+        <textarea id="result"></textarea>
+    </div>
+    </main>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
